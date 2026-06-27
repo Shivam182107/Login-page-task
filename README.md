@@ -1,6 +1,6 @@
-# 🚀 Login Page Task
+# 🚀 Authentication UI Task
 
-A modern and responsive **Login Page** built using **React.js**, **Vite**, **Tailwind CSS**, and **React Hook Form**. The application provides client-side form validation with a clean and user-friendly UI.
+A modern and responsive **Authentication UI** built using **React.js**, **Vite**, **Tailwind CSS**, **React Router**, and **React Hook Form**. The project includes both **Login** and **Signup** pages with client-side form validation, responsive design, and a clean user experience.
 
 ## 🌐 Live Demo
 
@@ -12,39 +12,36 @@ A modern and responsive **Login Page** built using **React.js**, **Vite**, **Tai
 
 ---
 
-## 📸 Preview
+## ✨ Features
 
-![Login Page](https://cn-geo1.uber.com/image-proc/crop/resizecrop/udam/format=auto/width=576/height=576/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy85NjRkZDNkMS05NGU3LTQ4MWUtYjI4Yy0wOGQ1OTM1M2I5ZTAucG5n)
-
----
-
-# ✨ Features
-
-- ✅ Responsive Design (Mobile, Tablet & Desktop)
-- ✅ Clean and Modern UI
-- ✅ Built with React + Vite
-- ✅ React Hook Form Validation
-- ✅ Email Validation
-- ✅ Password Validation
-- ✅ Form Reset After Successful Submission
-- ✅ Google Login Button UI
-- ✅ Smooth Hover Effects
-- ✅ Fully Responsive Layout
-- ✅ Tailwind CSS Styling
+* ✅ Responsive Login Page
+* ✅ Responsive Signup Page
+* ✅ Client-side Form Validation
+* ✅ React Hook Form Integration
+* ✅ React Router Navigation
+* ✅ Email Validation
+* ✅ Password Validation (Minimum 8 Characters)
+* ✅ First Name & Last Name Validation
+* ✅ Form Reset After Successful Submission
+* ✅ Google Authentication Button UI
+* ✅ Modern & Clean User Interface
+* ✅ Mobile, Tablet & Desktop Responsive
+* ✅ Built with Tailwind CSS
 
 ---
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-- React.js
-- Vite
-- Tailwind CSS
-- React Hook Form
-- React Icons
+* React.js
+* Vite
+* Tailwind CSS
+* React Router
+* React Hook Form
+* React Icons
 
 ---
 
-# 📦 Installation
+## 📦 Installation
 
 Clone the repository
 
@@ -52,7 +49,7 @@ Clone the repository
 git clone https://github.com/Shivam182107/Login-page-task.git
 ```
 
-Go to project directory
+Navigate to the project folder
 
 ```bash
 cd Login-page-task/frontend
@@ -64,19 +61,19 @@ Install dependencies
 npm install
 ```
 
-Start development server
+Run the development server
 
 ```bash
 npm run dev
 ```
 
-Build for production
+Build the project
 
 ```bash
 npm run build
 ```
 
-Preview production build
+Preview the production build
 
 ```bash
 npm run preview
@@ -84,15 +81,17 @@ npm run preview
 
 ---
 
-# 📁 Project Structure
+## 📁 Project Structure
 
 ```
 frontend
 │── public
 │── src
-│   ├── components
 │   ├── App.jsx
+│   ├── UserLogin.jsx
+│   ├── UserSignup.jsx
 │   ├── main.jsx
+│   ├── App.css
 │   └── index.css
 │
 ├── package.json
@@ -102,48 +101,59 @@ frontend
 
 ---
 
-# 📝 Form Validation
+## 🛣️ Routes
 
-### Email
-
-- Required Field
-- Accepts valid email format
-
-### Password
-
-- Required Field
-- Minimum 8 characters
+| Route            | Description      |
+| ---------------- | ---------------- |
+| `/`              | User Login Page  |
+| `/user/register` | User Signup Page |
 
 ---
 
-# 🎯 Future Improvements
+## 📝 Form Validation
 
-- Firebase Authentication
-- Google OAuth Integration
-- Show/Hide Password
-- Remember Me Option
-- Forgot Password Functionality
-- Backend Authentication (Node.js + Express)
-- JWT Authentication
-- Dark Mode
+### Login
+
+* Email is required.
+* Password is required.
+* Password must contain at least **8 characters**.
+
+### Signup
+
+* First Name is required.
+* Last Name is required.
+* Email is required.
+* Password must contain at least **8 characters**.
 
 ---
 
-# 👨‍💻 Author
+## 🎯 Future Improvements
+
+* Firebase Authentication
+* Google OAuth Integration
+* Backend Authentication (Node.js + Express)
+* JWT Authentication
+* Remember Me Feature
+* Forgot Password
+* Show/Hide Password
+* User Dashboard
+* Dark Mode
+
+---
+
+## 👨‍💻 Author
 
 **Shivam Ranjan Moharana**
 
-GitHub:
-https://github.com/Shivam182107
+GitHub: https://github.com/Shivam182107
 
-LinkedIn:
-https://www.linkedin.com/in/shivam-ranjan-moharana/
+LinkedIn: https://www.linkedin.com/in/shivam-ranjan-moharana/
 
 ---
 
-# ⭐ Support
+## ⭐ Support
 
-If you found this project helpful, don't forget to **Star ⭐ the repository**.
+If you found this project helpful, please consider giving it a **⭐ Star** on GitHub.
 
 ---
 

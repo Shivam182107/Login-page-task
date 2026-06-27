@@ -2,6 +2,7 @@
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaGoogle } from "react-icons/fa";
 import { useForm } from "react-hook-form";
+import { Link } from "react-router";
 
 
 
@@ -100,17 +101,17 @@ const UserLogin = () => {
               </button>
 
               <p className="text-center flex justify-center gap-2 mt-4 mb-6 flex-wrap">
-                <a href="#" className="text-black underline">
+                <Link to={"/user/register"} className="text-black underline">
                   Create new account
-                </a>
-                <a href="#" className="text-blue-600">
+                </Link>
+                <Link to={"/"} className="text-blue-600">
                   Forgotten password?
-                </a>
+                </Link>
               </p>
 
               <div className="border border-black mb-6 relative after:content-['or'] after:absolute after:bg-white after:px-2 after:left-1/2 after:top-1/2 after:-translate-x-1/2 after:-translate-y-1/2"></div>
 
-              {/* Google Login */}
+              
               <button
                 type="button"
                 
